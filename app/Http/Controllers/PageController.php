@@ -15,4 +15,8 @@ class PageController extends Controller
 
         return view('welcome', $data);
     }
+
+    public function movie(){
+        return view('movie');
+    }
 }
