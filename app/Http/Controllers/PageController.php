@@ -11,7 +11,7 @@ class PageController extends Controller
     {
         $movie = Movie::all();
 
-        $data = ['Movie' => $movie];
+        $data = ['movie' => $movie];
 
         return view('welcome', $data);
     }
