@@ -17,6 +17,10 @@ class PageController extends Controller
     }
 
     public function movie(){
-        return view('movie');
+        $movie = Movie::all();
+
+        $data = ['movie' => $movie];
+        
+        return view('movie', $data);
     }
 }
