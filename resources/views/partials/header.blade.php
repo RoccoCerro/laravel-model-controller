@@ -1,14 +1,14 @@
 <header>
   <div class="container">
-    <div class="row">
+    <div class="row justify-content-between">
       <div class="col-auto">LOGO</div>
       <div class="col-auto">
-        <ul>
-          <li>
-            <a href="{{route('home')}}">HOME</a>
+        <ul class="my-list-group">
+          <li class="">
+            <a class=" text-decoration-none " href="{{route('home')}}">HOME</a>
           </li>
-          <li>
-            <a href="{{route('movie')}}">MOVIE</a>
+          <li class="">
+            <a class=" text-decoration-none" href="{{route('movie')}}">MOVIE</a>
           </li>
         </ul>
       </div>

@@ -1,0 +1,10 @@
+.my-list-group{
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  font-weight: bold;
+
+  a{
+    color: black;
+  }
+}
